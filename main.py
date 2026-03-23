@@ -41,7 +41,7 @@ def generation_suivante(grille):
 
 
 def main():
-    grille = generer_grille(10, 10)
+    grille = generer_grille(100, 100 )
     fig, ax = plt.subplots()
     img = ax.imshow(grille, cmap='binary')
 

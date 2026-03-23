@@ -1,4 +1,6 @@
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use('TkAgg')
 from matplotlib.animation import FuncAnimation
 import random
 
